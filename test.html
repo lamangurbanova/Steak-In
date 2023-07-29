@@ -1,300 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link
-    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
-    rel="stylesheet"
-    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
-    crossorigin="anonymous"
-  />
-  <style>
-    .box-area{
-        height: 100vh;
-        
-    }
-    .box{
-        height: 300px;
-        width: 80%;
-        overflow-y: scroll;
-    }
-  </style>
-</head>
-<body>
-    <div class="box-area">
-        <div class="box">
-            <div class="accordion accordion-flush main-accordion " id="accordionFlushExample">
-                <div class="accordion-item">
-                  <h2 class="accordion-header ">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                      Home
-                    </button>
-                  </h2>
-                  <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body accordion-link d-flex flex-column">
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
 
-                      <a href="index.html">Home Main</a>
-                      <a href="homepage-2.html">Homeoage 2</a>
-                      <a href="homepage-3.html">Homeoage 3</a>
-                      <a href="homepage-4.html">Homeoage 4</a>
-                      <a href="homepage-5.html">Homeoage 5</a>
-                      <a href="homepage-6.html">Homeoage 6</a>
-                      <a href="homepage-7.html">Homeoage 7</a>
-                      <a href="homepage-8.html">Homeoage 8</a>
-                      <a href="homepage-9.html">Homeoage 9 (boxed)</a>
-                      <a href="homepage-10.html">Homeoage 10 (wide)</a>
-                      <a href="homepage-11.html">Homeoage 11 (dark)</a>
-                      <a href="homepage-12.html">Homeoage 12 (shop)</a>
-                      <a href="homepage-rtl.html">Homeoage RTL</a>
-                      <a href="homepage-arabic.html">Homeoage Arabic</a>
+    <!-- <link rel="stylesheet" href="owl.carousel.min.css">
+  <link rel="stylesheet" href="owl.theme.default.min.css"> -->
 
-              </div>
-                  </div>
-                </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                      About
-                    </button>
-                  </h2>
-                  <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body accordion-link d-flex flex-column">
-                      <a href="page-about.html">Our Story</a>
-                      <a href="page-chefs.html">Our Chefs</a>
-                      <a href="page-contacts.html">Contact Us</a>
-                      <a href="page-faqs.html">FAQs</a>
-                      <a href="page-testimonials.html">Guestbook</a>
-                      <a href="page-gallery.html">Gallery</a>
-                     </div>
-                  </div>
-                </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                     Menu
-                    </button>
-                  </h2>
-                  <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body accordion-link d-flex flex-column">
-                      <a href="menu-board.html">Menu Board</a>
-                      <a href="menu-classic.html">Menu Classic</a>
-                      <a href="menu-gallery.html">Menu Gallery</a>
-                      <a href="menu-simple.html">Menu Simple</a>
-                     </div>
-                  </div>
-                </div>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
-                <div class="accordion-item">
-                  <h2 class="accordion-header">
-                    <button class="accordion-button accordion-book-btn collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseThree">
-                     <a href="book.html" class="book-link">Book A Table</a>
-                    </button>
-                  </h2>
-                  
-                </div>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="owl-carousel owl-theme">
+      <div>
+        <img
+          src="http://7oroof.com/demos/steakin/assets/images/menu/dish/25.jpg"
+          alt=""
+        />
+      </div>
 
-                <div class="accordion-item">
-                  <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
-                     Features
-                    </button>
-                  </h2>
-                  <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body accordion-link  d-flex flex-column">
-                      <a href="#"  >
-                        Revolution Sliders
-                      </a>
-                      <a href="#">
-                        Headers
+      <div>
+        <img
+          src="	http://7oroof.com/demos/steakin/assets/images/menu/dish/27.jpg"
+          alt=""
+        />
+      </div>
 
-                      </a>
-                      <a href="#">
-                        Footers
-                      </a>
-                      <a href="#">
-                        Page Titels
-                      </a>
-                      <a href="#">Widgets</a>
-                      <a href="#">Utility pages</a>
-                      <a href="#">Page Tempalates</a>
-                      <a href="#">Landing Page</a>
-                     </div>
-                  </div>
-                </div>
-
-
-                <div class="accordion-item">
-                  <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
-                     Blog
-                    </button>
-                  </h2>
-                  <div id="flush-collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body accordion-link  d-flex flex-column">
-                      <a href="blog-carousel.html">
-                        Blog Carousel
-                      </a>
-                      <a href="blog-grid.html">
-                        Blog Grid
-
-                      </a>
-                      <a href="blog-standard.html">
-                        Blog Standart
-                      </a>
-                      <a href="blog-single.html">
-                       Blog Single
-                      </a>
-                     
-                     </div>
-                  </div>
-                </div>
-
-                <div class="accordion-item">
-                  <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
-                     Shop
-                    </button>
-                  </h2>
-                  <div id="flush-collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body accordion-link  d-flex flex-column">
-                      <a href="shop.html">
-                        Shop 4 Columns
-                      </a>
-                      <a href="shop-products.html">
-                        Shop Products
-
-                      </a>
-                      <a href="shop-single.html">
-                        Shop Single
-                      </a>
-                      <a href="shop-cart.html">
-                      Shop Cart
-                      </a>
-                     
-                     </div>
-                  </div>
-                </div>
-
-
-                <div class="accordion-item">
-                  <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEight" aria-expanded="false" aria-controls="flush-collapseEight">
-                     Elements
-                    </button>
-                  </h2>
-                  <div id="flush-collapseEight" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body accordion-link  d-flex flex-column">
-
-                      <p class="accordion-title">Interactive Elements</p>
-                      <a href="elements-testimonials.html" >
-                        <i class="fa-solid fa-quote-right me-1"></i>
-                           Testimonials</a >
-
-                      <a href="elements-blockquotes.html"
-                              >
-                            <i class="fa-solid fa-quote-left me-1"></i>
-                                Blockquotes</a>
-
-                                <a
-                                href="elements-video-buttons.html"
-                              
-                              >
-                                <i class="fa-regular fa-circle-play me-1"></i>
-                                Video Buttons</a
-                              >
-                              <a
-                              href="elements-clients.html"
-                              
-                            >
-                              <i class="fa-solid fa-user me-1"></i>
-                              Clients</a
-                            >
-
-                            <a
-                                href="elements-clients-carousel.html"
-                               
-                              >
-                                <i class="fa-solid fa-users me-1"></i> Clients
-                                Carousel</a
-                              >
-
-                              <a
-                              href="elements-daily-specials.html"
-                              class="dropdown-item"
-                            >
-                              <i class="fa-regular fa-newspaper me-1"></i>
-                              Daily Specials</a
-                            >
-
-                            <p class="accordion-title">Standart Elemenst</p>
-
-                            <a
-                            href="elements-accordion.html"
-                            
-                          >
-                            <i
-                              class="fa-regular fa-rectangle-list me-1"
-                            ></i>
-                            Accordion</a
-                          >
-
-                          <a
-                          href="elements-cta.html"
-                          
-                        >
-                          <i
-                            class="fa-solid fa-child-reaching me-1"
-                          ></i>
-                          Call To Action</a
-                        >
-
-                        <a
-                                href="elements-contact-form.html"
-                               
-                              >
-                                <i class="fa-solid fa-display me-1"></i>
-                                Contact From</a
-                              >
-
-
-                              <a
-                              
-                            >
-                              <i class="fa-solid fa-users me-1"></i> Team
-                              Variations</a
-                            >
-
-
-                            <a
-                            href="elements-tabs.html"
-                            
-                          >
-                            <i class="fa-solid fa-ellipsis me-1"></i>
-                            Tabs</a
-                          >
-
-                     </div>
-                  </div>
-                </div>
-
-
-                <div class="accordion-item">
-                  <h2 class="accordion-header">
-                    <button class="accordion-button accordion-book-btn collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseNine" aria-expanded="false" aria-controls="flush-collapseNine">
-                     <a href="book.html" class="book-link-btn">Book A Table</a>
-                    </button>
-                  </h2>
-                  
-                </div>
-
-
-                
-
-              </div>
-
-        </div>
+      <div>
+        <img
+          src="	http://7oroof.com/demos/steakin/assets/images/menu/dish/27.jpg"
+          alt=""
+        />
+      </div>
     </div>
-</body>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <!-- <script src="owl.carousel.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+  <script>   
+    $('.owl-carousel').owlCarousel({
+        loop:true,
+        margin:10,
+        items:3,
+        // nav:true,
+        autoplay:true,
+        dots:true,
+        responsiveClass:true,
+        responsive:{
+            0:{
+                items:1,
+                nav:true
+            },
+            768:{
+                items:2,
+                nav:true,
+            },
+            1100:{
+                items:3,
+                nav:true,
+            }
+        }
+})
+
+  </script> -->
+  </body>
 </html>
