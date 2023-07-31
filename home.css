@@ -1063,6 +1063,9 @@ a{
     background-color: rgba(27, 26, 26, 0.75);
     padding: 110px 0 90px;
 }
+.container-slider{
+
+}
 .testimonial .carousel-indicators-section{
     display: flex !important;
     right: 2px !important;
@@ -1112,7 +1115,7 @@ a{
     background-color: #ffffff;
     padding: 10px;
     height: 308px;
-    /* width: 370px; */
+    width: 370px;
   
 
 }
@@ -1132,6 +1135,8 @@ a{
     border: 1px dashed #c69c6d;
     padding: 28px;
     height: 100%;
+    width: 98%;
+   
 }
 .fa-star{
     color: #ffc80a;
@@ -1159,6 +1164,13 @@ a{
 .carousel-indicators-section{
     bottom: -63px !important;
     right: 27px !important;
+}
+.owl-dots .owl-dot{
+   width: 17px;
+    
+}
+.owl-theme .owl-dots{
+    margin-top: 25px !important;
 }
 /* testimonial end */
 
@@ -1313,6 +1325,12 @@ button{
 /* footer end */
 
 
+@media screen and (max-width:1400px){
+    .testimonial-panel{
+        width: 320px;
+    }
+}
+
 @media screen and (max-width:1200px){
     .nav .ul-left li{
         margin-right: 11px;
@@ -1379,10 +1397,12 @@ button{
     }
     .testimonial-panel{
         height: 370px;
+        width: 293px;
     }
     .lg-carousel{
         display: block !important;
     }
+  
 
     
 }
@@ -1483,6 +1503,11 @@ button{
         height: 36px;
         width: 36px;
        }
+    
+    .testimonial-panel{
+        height: 283px;
+        width: 100%;
+    }
 }
 @media screen and (max-width:768px){
     .fixed-nav{
@@ -1562,6 +1587,7 @@ button{
         height: 42px;
         width: 42px;
        }
+   
     
     
 
@@ -1599,6 +1625,7 @@ button{
     .title{
         text-align: center;
     }
+  
     
     
 }

@@ -16,9 +16,10 @@ a{
 
 .page-title{
     height: 502px;
-    background: url(http://7oroof.com/demos/steakin/assets/images/page-title/16.jpg) no-repeat center center;
+    background-image: url(http://7oroof.com/demos/steakin/assets/images/page-title/10.jpg);
     background-size: cover;
     background-attachment: fixed;
+    background-position: center center;
 
     
 }

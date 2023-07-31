@@ -31,10 +31,11 @@ a{
 }
 .fixed-nav{
     width: 97.2%;
+    
 }
 .nav{
     height: 100px;
-    position: fixed;
+    /* position: fixed; */
     /* z-index: 100; */
     width: 100%;
 }
@@ -739,9 +740,7 @@ a{
 
 
 /* testimonial start */
-
 .testimonial{
-    
     background-image: url(http://7oroof.com/demos/steakin/assets/images/background/1.jpg);
     background-attachment: fixed;
     background-size: cover;
@@ -755,9 +754,23 @@ a{
     background-color: rgba(27, 26, 26, 0.75);
     padding: 110px 0 90px;
 }
+.container-slider{
+
+}
+.testimonial .carousel-indicators-section{
+    display: flex !important;
+    right: 2px !important;
+
+}
+.mobile-carousel{
+    display: none ;
+}
+.mobile-btn{
+    display: none;
+}
 .shape-up{
     position: absolute;
-    top: -7px;
+    top: -6px;
     left: 50%;
     margin-left: -62px;
 }
@@ -783,7 +796,7 @@ a{
 }
 .testimonial .title{
     font-family: 'Abril Fatface', cursive;
-    color: white;
+    color: white !important;
     font-size: 50px;
     font-weight: 400;
     line-height: 1;
@@ -793,7 +806,9 @@ a{
     background-color: #ffffff;
     padding: 10px;
     height: 308px;
+    width: 370px;
   
+
 }
 .shape-1-up{
     position: absolute;
@@ -801,12 +816,6 @@ a{
     left: 44%;
     margin-left: -52px;
     
-}
-.testimonial .shape-down{
-    position: absolute;
-    bottom: -5px;
-    left: 50%;
-    margin-left: -62px;
 }
 .testimonial-panel .shape-1-up img{
     width: 124px;
@@ -817,6 +826,8 @@ a{
     border: 1px dashed #c69c6d;
     padding: 28px;
     height: 100%;
+    width: 98%;
+   
 }
 .fa-star{
     color: #ffc80a;
@@ -842,19 +853,15 @@ a{
     font-style: italic;
 }
 .carousel-indicators-section{
-    bottom: -68px !important;
+    bottom: -63px !important;
     right: 27px !important;
 }
-.carousel-indicators-section button{
-    height: 10px !important;
-    width: 10px !important;
-    border-radius: 50%;
+.owl-dots .owl-dot{
+   width: 17px;
+    
 }
-.mobile-carousel {
-    display: none;
-}
-.mobile-btn{
-    display: none;
+.owl-theme .owl-dots{
+    margin-top: 25px !important;
 }
 /* testimonial end */
 
@@ -1013,7 +1020,11 @@ button{
     margin: 0 0 20px;
 }
 
-
+@media screen and (max-width:1400px){
+    .testimonial-panel{
+        width: 320px;
+    }
+}
 
 @media screen and (max-width:1200px){
     .nav .ul-left li{
@@ -1059,6 +1070,7 @@ button{
     }
     .testimonial-panel{
         height: 370px;
+        width: 293px;
     }
     .lg-carousel{
         display: block !important;
@@ -1146,6 +1158,11 @@ button{
         height: 36px;
         width: 36px;
        }
+
+       .testimonial-panel{
+        height: 283px;
+        width: 100%;
+    }
 }
 @media screen and (max-width:768px){
     .fixed-nav{

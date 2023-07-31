@@ -15,7 +15,7 @@ a{
 }
 .page-title{
     height: 502px;
-    background: url(	http://7oroof.com/demos/steakin/assets/images/page-title/4.jpg)	;
+    background: url(http://7oroof.com/demos/steakin/assets/images/page-title/1.jpg)	;
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -36,6 +36,7 @@ a{
     font-family: 'Ruthie', cursive !important;
     font-size: 45px;
     line-height: 1;
+    margin-bottom: 0;
 }
 .title-heading h1{
     color: #ffffff;
@@ -645,102 +646,86 @@ a{
 /* mobile menu end */
 
 
-
-/* contact start */
-
-.contact{
-    padding-top: 60px;
-    padding-bottom: 60px;
+.bg-gray{
+  background-color: #f9f9f9 !important;
+  padding-top: 150px;
 }
-.contact-dec{
-    margin-bottom: 40px;
+.clients{
+    padding: 110px 0;
 }
-.contact-dec p{
-    color: #a5a5a5;
-    font-size: 14px;
-}
-.contact-info{
-    margin-bottom: 24px;
-}
-.contact-info h3{
-    color: #222;
-    font-size: 17px;
-    font-weight: 600;
-    line-height: 1;
-    margin-bottom: 23px;
-}
-.contact-info p{
-    font-size: 14px;
-    line-height: 23px;
-    margin: 0;   
-}
-.contact-info a{
-    
+.subtitle{
     color: #bb9356;
-    font-size: 14px;
-    font-weight: 700;
+    font-family: 'Ruthie', cursive;
+    font-size: 35px;
     line-height: 1;
-    text-transform: uppercase;
-    text-decoration: none;
+    margin-bottom: 5px;
+    text-transform: capitalize;
+    text-align: center;
 }
-.contact-info a:hover{
-    color: #222;
+.title{
+    font-family: 'Abril Fatface', cursive;
+    color: #222222;
+    font-size: 39px;
+    font-weight: 400;
+    line-height: 1;
+    margin-bottom: 25px;
+    text-align: center;
 }
-.contact .sosial-media a:hover i{
-    transition: all .4s ease;
-    color: white;
-    transform: rotate(360deg);
-
-}
-.contact input{
+.shape-4{
     width: 100%;
-    font-size: 13px;
-    line-height: 49px;
-    border: 1px solid #eee;
-    background: transparent;
-    padding-left: 18px;
-    margin-bottom: 30px;
-    border-radius: 2px;
-    box-shadow: none;
-    height: 49px;
-    margin: 0 0 30px !important;
+    height: 16px;
+    background-image: url(http://7oroof.com/demos/steakin/assets/images/background/shapes/shape-4.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-bottom: 25px;
 }
-.contact input:focus, textarea:focus{
-    outline: none;
-    border: 1px solid #bb9356 !important;
-}
-textarea{
-    padding-top: 10px;
-    padding-left: 18px ;
-    width: 100%;
-    margin: 0 0 30px !important;
-}
-textarea::placeholder{
+.dec{
+    font-family: 'Poppins', sans-serif;
     color: #a5a5a5;
-    font-size: 13px;
-}
-.send-btn{
-    width: 100%;
-    background-color: #222222;
-    color: #ffffff;
-    border: 2px solid #222222;
-    height: 51px;
-    font-weight: 700;
-    letter-spacing: 0.28px;
-    font-size: 14px !important;
-}
-.send-btn:hover{
-    background-color: #bb9356;
-    color: white;
-    border-color: #bb9356;
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 0;
+    /* padding: 0 40px; */
+    text-align: center;
 }
 
-/* contact end */
-
-
-
-
-
+.row-clients .client, .client-last {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 135px !important;
+    margin-bottom: 15px !important;
+    line-height: 135px !important;
+    padding: 20px !important;
+}
+.row-clients .client::before{
+    position: absolute;
+    content: "";
+    right: 0;
+    top: 0;
+    width: 1px;
+    height: 121px;
+    background-color: rgba(206, 206, 206, 0.5);
+}
+.clients-2 .client::after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 14px;
+    width: 90%;
+    height: 1px;
+    background-color: rgba(206, 206, 206, 0.5);
+}
+.clients-2 .client-last::after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 14px;
+    width: 90%;
+    height: 1px;
+    background-color: rgba(206, 206, 206, 0.5);
+}
 
 /* footer start */
 
@@ -839,9 +824,13 @@ button{
     flex-direction: column;
     align-items: center;
 }
-
-
 /* footer end */
+
+
+
+
+
+
 
 
 @media  screen and (min-width:768px) {
@@ -866,6 +855,29 @@ button{
         height: 36px;
         width: 36px;
        }
+
+    .title{
+        font-size: 50px;
+    }
+    .subtitle{
+        font-size: 45px;
+    }
+    .container-blog{
+        width: 750px !important;
+    }
+    .entry-img img{
+        width: 219px;
+    }
+    .entry-dec{
+        margin-top: 0px;
+        margin-left: 20px;
+    }
+    ul.comments-list ul.comment-children{
+       
+        margin: 20px 0 0 90px;
+       
+        
+    }
 }
 
 
@@ -890,6 +902,15 @@ button{
     .container-full{
         padding: 20px;
     }
+    .container-blog{
+        width: 970px !important;
+    }
+    .dec{
+      
+        padding: 0 40px;
+        width: 70%;
+    }
+   
 
     
     
@@ -912,6 +933,19 @@ button{
 
    .contact input{
         width: 260px;
+    }
+    .entry-title a{
+        font-size: 20px;
+    }
+    .container-blog{
+        width: 1170px !important;
+    }
+
+    .entry-img img{
+        width: 262px;
+    }
+    .container{
+        width: 1170px !important;
     }
    
     

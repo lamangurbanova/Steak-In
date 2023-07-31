@@ -15,7 +15,7 @@ a{
 }
 .page-title{
     height: 502px;
-    background: url(	http://7oroof.com/demos/steakin/assets/images/page-title/4.jpg)	;
+    background: url(http://7oroof.com/demos/steakin/assets/images/page-title/1.jpg)	;
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -36,6 +36,7 @@ a{
     font-family: 'Ruthie', cursive !important;
     font-size: 45px;
     line-height: 1;
+    margin-bottom: 0;
 }
 .title-heading h1{
     color: #ffffff;
@@ -645,102 +646,17 @@ a{
 /* mobile menu end */
 
 
-
-/* contact start */
-
-.contact{
-    padding-top: 60px;
-    padding-bottom: 60px;
+.bg-gray{
+  background-color: #f9f9f9 !important;
+  padding-top: 150px;
 }
-.contact-dec{
-    margin-bottom: 40px;
+.clients{
+    padding: 40px 0;
 }
-.contact-dec p{
-    color: #a5a5a5;
-    font-size: 14px;
+.item img{
+    width: 120px !important;
+    height: 42px;
 }
-.contact-info{
-    margin-bottom: 24px;
-}
-.contact-info h3{
-    color: #222;
-    font-size: 17px;
-    font-weight: 600;
-    line-height: 1;
-    margin-bottom: 23px;
-}
-.contact-info p{
-    font-size: 14px;
-    line-height: 23px;
-    margin: 0;   
-}
-.contact-info a{
-    
-    color: #bb9356;
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 1;
-    text-transform: uppercase;
-    text-decoration: none;
-}
-.contact-info a:hover{
-    color: #222;
-}
-.contact .sosial-media a:hover i{
-    transition: all .4s ease;
-    color: white;
-    transform: rotate(360deg);
-
-}
-.contact input{
-    width: 100%;
-    font-size: 13px;
-    line-height: 49px;
-    border: 1px solid #eee;
-    background: transparent;
-    padding-left: 18px;
-    margin-bottom: 30px;
-    border-radius: 2px;
-    box-shadow: none;
-    height: 49px;
-    margin: 0 0 30px !important;
-}
-.contact input:focus, textarea:focus{
-    outline: none;
-    border: 1px solid #bb9356 !important;
-}
-textarea{
-    padding-top: 10px;
-    padding-left: 18px ;
-    width: 100%;
-    margin: 0 0 30px !important;
-}
-textarea::placeholder{
-    color: #a5a5a5;
-    font-size: 13px;
-}
-.send-btn{
-    width: 100%;
-    background-color: #222222;
-    color: #ffffff;
-    border: 2px solid #222222;
-    height: 51px;
-    font-weight: 700;
-    letter-spacing: 0.28px;
-    font-size: 14px !important;
-}
-.send-btn:hover{
-    background-color: #bb9356;
-    color: white;
-    border-color: #bb9356;
-}
-
-/* contact end */
-
-
-
-
-
 
 /* footer start */
 
@@ -839,9 +755,13 @@ button{
     flex-direction: column;
     align-items: center;
 }
-
-
 /* footer end */
+
+
+
+
+
+
 
 
 @media  screen and (min-width:768px) {
@@ -866,6 +786,29 @@ button{
         height: 36px;
         width: 36px;
        }
+
+    .title{
+        font-size: 50px;
+    }
+    .subtitle{
+        font-size: 45px;
+    }
+    .container-blog{
+        width: 750px !important;
+    }
+    .entry-img img{
+        width: 219px;
+    }
+    .entry-dec{
+        margin-top: 0px;
+        margin-left: 20px;
+    }
+    ul.comments-list ul.comment-children{
+       
+        margin: 20px 0 0 90px;
+       
+        
+    }
 }
 
 
@@ -890,6 +833,15 @@ button{
     .container-full{
         padding: 20px;
     }
+    .container-blog{
+        width: 970px !important;
+    }
+    .dec{
+      
+        padding: 0 40px;
+        width: 70%;
+    }
+   
 
     
     
@@ -912,6 +864,19 @@ button{
 
    .contact input{
         width: 260px;
+    }
+    .entry-title a{
+        font-size: 20px;
+    }
+    .container-blog{
+        width: 1170px !important;
+    }
+
+    .entry-img img{
+        width: 262px;
+    }
+    .container{
+        width: 1170px !important;
     }
    
     

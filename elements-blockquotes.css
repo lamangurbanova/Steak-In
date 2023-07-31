@@ -15,7 +15,7 @@ a{
 }
 .page-title{
     height: 502px;
-    background: url(	http://7oroof.com/demos/steakin/assets/images/page-title/4.jpg)	;
+    background: url(http://7oroof.com/demos/steakin/assets/images/page-title/1.jpg)	;
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -36,6 +36,7 @@ a{
     font-family: 'Ruthie', cursive !important;
     font-size: 45px;
     line-height: 1;
+    margin-bottom: 0;
 }
 .title-heading h1{
     color: #ffffff;
@@ -645,99 +646,74 @@ a{
 /* mobile menu end */
 
 
+/* blockquote start  */
 
-/* contact start */
 
-.contact{
-    padding-top: 60px;
-    padding-bottom: 60px;
+.blockquote-section{
+    padding-top: 110px;
+    padding-bottom: 110px;
 }
-.contact-dec{
-    margin-bottom: 40px;
+.font-20{
+    font-size: 20px !important;
+    color: #222222;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    margin: 0 0 28px;
+    line-height: 1;
 }
-.contact-dec p{
+.blockquote{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
     color: #a5a5a5;
+    font-style: italic;
+    line-height: 28px;
+    font-weight: 400;
+    padding: 30px 0 30px 30px;
+    position: relative;
+}
+.blockquote-1{
+    border-left: 6px solid #222222;
+}
+.quote-author{
+    display: block;
     font-size: 14px;
-}
-.contact-info{
-    margin-bottom: 24px;
-}
-.contact-info h3{
-    color: #222;
-    font-size: 17px;
+    font-style: normal;
     font-weight: 600;
     line-height: 1;
-    margin-bottom: 23px;
+    color: #333333;
+    margin-top: 18px;
 }
-.contact-info p{
-    font-size: 14px;
-    line-height: 23px;
-    margin: 0;   
+.blockquote-2::before{
+    content: "\f10d";
+    top: 0;
+    left: 0;
+    font-family: fontawesome;
+    font-size: 18px;
+    position: absolute;
+    color: #222222;
+    line-height: 1.8;
 }
-.contact-info a{
-    
+.blockquote-2:after {
+    content: "\f10e";
+    right: 0;
+    bottom: 0;
+    font-family: fontawesome;
+    font-size: 18px;
+    position: absolute;
+    color: #222222;
+    line-height: 1.8;
+}
+.blockquote-3 {
     color: #bb9356;
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 1;
-    text-transform: uppercase;
-    text-decoration: none;
+    background-color: #f4f4f4;
+    border-radius: 0;
 }
-.contact-info a:hover{
-    color: #222;
-}
-.contact .sosial-media a:hover i{
-    transition: all .4s ease;
-    color: white;
-    transform: rotate(360deg);
-
-}
-.contact input{
-    width: 100%;
-    font-size: 13px;
-    line-height: 49px;
-    border: 1px solid #eee;
-    background: transparent;
-    padding-left: 18px;
-    margin-bottom: 30px;
-    border-radius: 2px;
-    box-shadow: none;
-    height: 49px;
-    margin: 0 0 30px !important;
-}
-.contact input:focus, textarea:focus{
-    outline: none;
-    border: 1px solid #bb9356 !important;
-}
-textarea{
-    padding-top: 10px;
-    padding-left: 18px ;
-    width: 100%;
-    margin: 0 0 30px !important;
-}
-textarea::placeholder{
-    color: #a5a5a5;
-    font-size: 13px;
-}
-.send-btn{
-    width: 100%;
-    background-color: #222222;
+.blockquote-4 {
     color: #ffffff;
-    border: 2px solid #222222;
-    height: 51px;
-    font-weight: 700;
-    letter-spacing: 0.28px;
-    font-size: 14px !important;
+    background-color: #222222;
+    border-radius: 5px;
 }
-.send-btn:hover{
-    background-color: #bb9356;
-    color: white;
-    border-color: #bb9356;
-}
-
-/* contact end */
-
-
+/* blockquote end */
 
 
 
@@ -839,9 +815,13 @@ button{
     flex-direction: column;
     align-items: center;
 }
-
-
 /* footer end */
+
+
+
+
+
+
 
 
 @media  screen and (min-width:768px) {
@@ -866,6 +846,29 @@ button{
         height: 36px;
         width: 36px;
        }
+
+    .title{
+        font-size: 50px;
+    }
+    .subtitle{
+        font-size: 45px;
+    }
+    .container-blog{
+        width: 750px !important;
+    }
+    .entry-img img{
+        width: 219px;
+    }
+    .entry-dec{
+        margin-top: 0px;
+        margin-left: 20px;
+    }
+    ul.comments-list ul.comment-children{
+       
+        margin: 20px 0 0 90px;
+       
+        
+    }
 }
 
 
@@ -890,6 +893,10 @@ button{
     .container-full{
         padding: 20px;
     }
+    .container-blog{
+        width: 970px !important;
+    }
+   
 
     
     
@@ -912,6 +919,19 @@ button{
 
    .contact input{
         width: 260px;
+    }
+    .entry-title a{
+        font-size: 20px;
+    }
+    .container-blog{
+        width: 1170px !important;
+    }
+
+    .entry-img img{
+        width: 262px;
+    }
+    .container{
+        width: 1170px !important;
     }
    
     

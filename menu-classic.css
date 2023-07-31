@@ -15,7 +15,7 @@ a{
 }
 .page-title{
     height: 502px;
-    background: url(	http://7oroof.com/demos/steakin/assets/images/page-title/4.jpg)	;
+    background: url(http://7oroof.com/demos/steakin/assets/images/page-title/16.jpg)	;
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -42,6 +42,7 @@ a{
     font-size: 45px !important;
     line-height: 50px;
     font-family: 'Abril Fatface', cursive;
+    text-align: center;
 }
 .title-heading{
     margin-bottom: 95px;
@@ -646,102 +647,150 @@ a{
 
 
 
-/* contact start */
+/* gallery start */
 
-.contact{
-    padding-top: 60px;
+
+.gallery{
+    padding-top: 110px;
     padding-bottom: 60px;
+    overflow: hidden;
 }
-.contact-dec{
-    margin-bottom: 40px;
-}
-.contact-dec p{
-    color: #a5a5a5;
-    font-size: 14px;
-}
-.contact-info{
-    margin-bottom: 24px;
-}
-.contact-info h3{
-    color: #222;
-    font-size: 17px;
-    font-weight: 600;
-    line-height: 1;
-    margin-bottom: 23px;
-}
-.contact-info p{
-    font-size: 14px;
-    line-height: 23px;
-    margin: 0;   
-}
-.contact-info a{
-    
+.subtitle{
     color: #bb9356;
-    font-size: 14px;
-    font-weight: 700;
+    font-family: 'Ruthie', cursive;
+    font-size: 35px;
     line-height: 1;
-    text-transform: uppercase;
-    text-decoration: none;
+    margin-bottom: 5px;
+    text-transform: capitalize;
+    text-align: center;
 }
-.contact-info a:hover{
-    color: #222;
+.title{
+    font-family: 'Abril Fatface', cursive;
+    color: #222222;
+    font-size: 39px;
+    line-height: 1;
+    margin-bottom: 25px;
+    text-align: center;
 }
-.contact .sosial-media a:hover i{
-    transition: all .4s ease;
-    color: white;
-    transform: rotate(360deg);
-
+.shape-4{
+    margin-bottom: 25px;
 }
-.contact input{
-    width: 100%;
-    font-size: 13px;
-    line-height: 49px;
-    border: 1px solid #eee;
-    background: transparent;
-    padding-left: 18px;
-    margin-bottom: 30px;
-    border-radius: 2px;
-    box-shadow: none;
-    height: 49px;
-    margin: 0 0 30px !important;
+.shape-4 img{
+    height: 16px;
 }
-.contact input:focus, textarea:focus{
-    outline: none;
-    border: 1px solid #bb9356 !important;
-}
-textarea{
-    padding-top: 10px;
-    padding-left: 18px ;
-    width: 100%;
-    margin: 0 0 30px !important;
-}
-textarea::placeholder{
+.dec{
     color: #a5a5a5;
-    font-size: 13px;
+    font-size: 14px;
+    line-height: 24px;
+    padding: 0 40px;
+    text-align: center;
 }
-.send-btn{
+
+
+/* gallery end */
+
+
+/* breakfast start */
+
+.breakfast{
+    background-image: url(http://7oroof.com/demos/steakin/assets/images/background/22.jpg);
+}
+
+.meal-time{
+    height: 479px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.bg-section{
     width: 100%;
-    background-color: #222222;
-    color: #ffffff;
-    border: 2px solid #222222;
-    height: 51px;
-    font-weight: 700;
-    letter-spacing: 0.28px;
-    font-size: 14px !important;
+    height: 100%;
+    background-color: rgba(27, 26, 26, 0.65);
+   padding-top: 200px;
+   padding-bottom: 200px;
 }
-.send-btn:hover{
-    background-color: #bb9356;
-    color: white;
-    border-color: #bb9356;
+.shape-up{
+    position: absolute;
+    top: -7px;
+    left: 50%;
+    margin-left: -62px;
+}
+.shape-up img{
+    width: 124px;
+    height: 13px;
 }
 
-/* contact end */
+.shape4down{
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background-position: center center;
+    background-image: url(http://7oroof.com/demos/steakin/assets/images/background/shapes/shape-4down.png);
+}
+
+/* breakfast end */
+
+
+/* breakfast menu start */
+
+.menu-section{
+    padding-top: 110px;
+    padding-bottom: 110px;
+}
+.dish-panel{
+    margin-bottom: 30px;
+    max-width: 450px;
+    padding-bottom: 16px;
+    border-bottom: 1px dashed #d8d8d8;
+}
+.dish-title{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 29px;
+    color: #333333;
+
+}
+.dish-price{
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 29px;
+    color: #bb9356;
+}
+.dish-dec{
+    font-size: 13px;
+    line-height: 23px;
+    color: #a5a5a5;
+
+}
+
+
+/* breakfast menu end */
+
+/* lunch start */
+
+.lunch{
+    background-image: url(http://7oroof.com/demos/steakin/assets/images/background/23.jpg);
+}
+
+/* lunch end */
 
 
 
+/* dinner start */
 
+.dinner{
+    background-image: url(http://7oroof.com/demos/steakin/assets/images/background/24.jpg);
+}
 
-
+.dessert{
+    background-image: url(	http://7oroof.com/demos/steakin/assets/images/background/25.jpg);
+}
+.drinks{
+    background-image: url(http://7oroof.com/demos/steakin/assets/images/background/26.jpg);
+}
 /* footer start */
 
 footer{
@@ -866,6 +915,23 @@ button{
         height: 36px;
         width: 36px;
        }
+    .dish-panel{
+       
+        max-width: 550px !important;
+    }
+    .container-menu{
+        width: 750px !important;
+    }
+    .breakfast{
+        height: 500px;
+    }
+    .title{
+        font-size: 50px;
+    }
+    .subtitle{
+        font-size: 45px;
+    }
+    
 }
 
 
@@ -890,6 +956,17 @@ button{
     .container-full{
         padding: 20px;
     }
+    .dec{
+        width: 70%;
+    }
+    .container-menu{
+        width: 970px !important;
+    }
+    .dish-panel{
+        max-width: 550px !important;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
     
     
@@ -910,9 +987,17 @@ button{
         width: 99%;
     }
 
-   .contact input{
-        width: 260px;
+
+    .dec{
+        width: 60%;
     }
+    .container-menu{
+        width: 1170px !important;
+    }
+    .dish-panel{
+        width: 360px;
+    }
+    
    
     
    
