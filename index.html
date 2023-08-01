@@ -32,7 +32,7 @@
     
  
   </head>
-  <body>
+  <body >
     <div class="container-full">
       <!-- nav start -->
       <div class="position-fixed fixed-nav" >
@@ -1268,7 +1268,87 @@
                   <!-- elements end -->
 
                   <li>
-                    <button class="book-btn">book a table</button>
+                    <button class="book-btn" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal">book a table</button>
+
+
+
+
+                    <div class="modal fade"
+                          id="exampleModal"
+                          tabindex="-1"
+                          aria-labelledby="exampleModalLabel"
+                          aria-hidden="true"
+                        >
+                          <div class="modal-dialog modal-dialog-centered d-flex justify-content-center">
+                            <div class="modal-content position-relative d-flex justify-content-center">
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              <div class="row reservation mx-0 h-100 d-flex justify-content-center">
+                                <div class="col-12 h-100 d-flex justify-content-center">
+                                  <div class="reservation-form d-flex justify-content-center align-items-center">
+                                    <div class="reservation-bordered d-flex flex-column align-items-center">
+                                      <div class="subtitle">Reservation</div>
+                                      <div class="title">Book Your Table</div>
+                                      <div class="shape-4"></div>
+                                      <div class="reservation-dec">
+                                        You can Book a table online easily in just a couple of minutes. We take reservations for lunch and dinner, just check the availability of your table & book it now!
+                                      </div>
+                                      <div class="row mx-0 w-100">
+                                        <div class="col-12">
+                                          <div class="reservation-select d-lg-flex">
+                                            <select name="" id="" class="me-lg-4">
+                                               
+                                                <option value="" selected>Number of People</option>
+                                                <option value="" >2 People</option>
+                                                <option value="">3 People</option>
+                                                <option value="">4 People</option>
+                                                <option value="">5 People</option>
+                                                <option value="">6 People</option>
+                                                <option value="">8 People</option>
+                                                <option value="">10 People</option>
+                                            </select>
+                
+                                            <select name="" id="" class="me-lg-4">
+                                               
+                                                <option value="" selected>Date</option>
+                                                <option value="" >November 23, 2023</option>
+                                                <option value="">November 24, 2023</option>
+                                                <option value="">November 25, 2023</option>
+                                                <option value="">November 26, 2023</option>
+                                                <option value="">November 27, 2023</option>
+                                                <option value="">November 28, 2023</option>
+                                             
+                                            </select>
+                
+                                            <select name="" id="" >
+                                               
+                                                <option value="" selected>Time</option>
+                                                <option value="" >8:00 PM</option>
+                                                <option value="">9:00 PM</option>
+                                                <option value="">11:00 PM</option>
+                                                <option value="">12:00 PM</option>
+                                               
+                                             
+                                            </select>
+                                        </div>
+                
+                                        <button class="find-button">
+                                            Find Table
+                                        </button>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col-12">
+
+                                </div>
+                              </div>
+                            </div>
+
+                           
+                          </div>
+                        </div>
                   </li>
                 </ul>
 
@@ -1555,9 +1635,88 @@
                 <div class="accordion-item">
                   <h2 class="accordion-header">
                     <button class="accordion-button accordion-book-btn collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseNine" aria-expanded="false" aria-controls="flush-collapseNine">
-                     <a href="book.html" class="book-link-btn">Book A Table</a>
+                     <a href="book.html" class="book-link-btn" data-bs-toggle="modal"
+                     data-bs-target="#exampleModal">Book A Table</a>
                     </button>
                   </h2>
+
+
+
+                  <div class="modal fade"
+                          id="exampleModal"
+                          tabindex="-1"
+                          aria-labelledby="exampleModalLabel"
+                          aria-hidden="true"
+                        >
+                          <div class="modal-dialog modal-dialog-centered d-flex justify-content-center">
+                            <div class="modal-content position-relative d-flex justify-content-center">
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              <div class="row reservation mx-0 h-100 d-flex justify-content-center">
+                                <div class="col-12 h-100 d-flex justify-content-center">
+                                  <div class="reservation-form d-flex justify-content-center align-items-center">
+                                    <div class="reservation-bordered d-flex flex-column align-items-center">
+                                      <div class="subtitle">Reservation</div>
+                                      <div class="title">Book Your Table</div>
+                                      <div class="shape-4"></div>
+                                      <div class="reservation-dec">
+                                        You can Book a table online easily in just a couple of minutes. We take reservations for lunch and dinner, just check the availability of your table & book it now!
+                                      </div>
+                                      <div class="row mx-0 w-100">
+                                        <div class="col-12">
+                                          <div class="reservation-select d-lg-flex">
+                                            <select name="" id="" class="me-lg-4">
+                                               
+                                                <option value="" selected>Number of People</option>
+                                                <option value="" >2 People</option>
+                                                <option value="">3 People</option>
+                                                <option value="">4 People</option>
+                                                <option value="">5 People</option>
+                                                <option value="">6 People</option>
+                                                <option value="">8 People</option>
+                                                <option value="">10 People</option>
+                                            </select>
+                
+                                            <select name="" id="" class="me-lg-4">
+                                               
+                                                <option value="" selected>Date</option>
+                                                <option value="" >November 23, 2023</option>
+                                                <option value="">November 24, 2023</option>
+                                                <option value="">November 25, 2023</option>
+                                                <option value="">November 26, 2023</option>
+                                                <option value="">November 27, 2023</option>
+                                                <option value="">November 28, 2023</option>
+                                             
+                                            </select>
+                
+                                            <select name="" id="" >
+                                               
+                                                <option value="" selected>Time</option>
+                                                <option value="" >8:00 PM</option>
+                                                <option value="">9:00 PM</option>
+                                                <option value="">11:00 PM</option>
+                                                <option value="">12:00 PM</option>
+                                               
+                                             
+                                            </select>
+                                        </div>
+                
+                                        <button class="find-button">
+                                            Find Table
+                                        </button>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col-12">
+
+                                </div>
+                              </div>
+                            </div>
+
+                           
+                          </div>
+                        </div>
                   
                 </div>
 

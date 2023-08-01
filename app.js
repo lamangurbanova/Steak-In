@@ -10,7 +10,7 @@ let border = document.querySelector(".border");
 let accordion = document.querySelector(".accordion ");
 let box_menu = document.querySelector(".box-menu");
 
-box_menu.style.display="none";
+// box_menu.style.display="none";
 console.log(fa_bars_menu);
 
 
@@ -83,5 +83,10 @@ window.addEventListener("scroll",()=>{
 
 
 })
+
+let windowY = screenX;
+if(windowY>=992){
+    box_menu.style.display="none !important";
+}
 
 
