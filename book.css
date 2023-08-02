@@ -970,7 +970,11 @@ button{
         height: 42px;
         width: 42px;
        }
-   
+      
+        .box-menu{
+            display: none !important;
+        }
+    
 
     
     

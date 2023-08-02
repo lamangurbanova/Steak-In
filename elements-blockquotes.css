@@ -896,7 +896,11 @@ button{
     .container-blog{
         width: 970px !important;
     }
-   
+
+    .box-menu{
+            display: none !important;
+        }
+    
 
     
     

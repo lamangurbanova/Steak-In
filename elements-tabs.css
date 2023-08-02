@@ -566,6 +566,201 @@ a{
     display: flex !important;
 }
 
+/* modal */ 
+.modal-backdrop.show {
+    opacity: 0 !important;
+}
+.modal {
+    z-index: 10800;
+    background: rgba(34, 34, 34, 0.95);
+}
+
+#exampleModal .modal-content, .modal-dialog{
+    border-radius: 0 !important;
+    height: 550px !important;
+    width: 900px !important;
+}
+.modal-backdrop.show{
+    opacity: 0;
+}
+.btn-close{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    color: #222;
+    z-index: 1040;
+    font-size: 14px;
+    opacity: 1;
+    border: none;
+    box-shadow: none !important;
+}
+.resevation-form{
+    box-shadow: 0 2px 3px rgba(40, 40, 40, 0.26);
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+}
+.reservation-bordered {
+    padding: 70px 90px;
+    border: 1px dashed #bb9356;
+    width: 850px;
+    height: 530px;
+}
+.modal-content .title{
+    color: #222 !important;
+}
+
+.reservation-dec{
+    margin-top: 20px;
+    padding: 0 55px;
+    margin-bottom: 50px;
+    color: #a5a5a5;
+    font-size: 14px;
+    text-align: center;
+}
+
+.reservation-select select{
+    width: 100%;
+    line-height: 1;
+    color: #a5a5a5;
+    cursor: pointer;
+    padding: 6px 18px 6px 18px;
+    margin: 0 0 30px;
+    border:1px solid #eee ;
+    height: 49px;
+    font-size: 13px;
+}
+.find-button{
+    width: 100%;
+    background-color: #222;
+    color: white;
+    border: 2px solid #222;
+    height: 51px;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+.find-button:hover{
+    background-color: #bb9356;
+    border-color: #bb9356;
+}
+
+#exampleModal-1 .modal-content, .modal-dialog{
+    width: 600px !important;
+    height: 771px !important;
+}
+#exampleModal-1 .reservation-bordered {
+    width: 580px !important;
+    height: 751px !important;
+}
+
+.module{
+    display: none;
+    position: absolute;
+    right: 123px;
+    top: 100px;
+    width: 370px;
+    height: 394px;
+    padding: 32px;
+    background-color: #1b1a1a;
+}
+.module .itemFirst{
+    border-bottom: 1px solid rgba(127, 127, 127, 0.15);
+    margin-bottom: 20px;
+    padding-bottom: 18px;
+}
+.product-meta{
+    margin-left: 16px;
+}
+.product-meta .product-title{
+    color: #ffffff;
+    font-size: 19px;
+    text-transform: capitalize;
+    line-height: 28px;
+
+}
+.product-meta .product-price{
+    color: #bb9356;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.cart-cancel::after{
+    font-family: fontawesome;
+    content: "\f00d";
+    font-size: 12px;
+    position: absolute;
+    text-align: center;
+    background-color: #bb9356;
+    right: -83px;
+    top: 0;
+    width: 19px;
+    height: 19px;
+    line-height: 19px;
+    border-radius: 2px;
+    color: #222222;
+
+}
+.cart-cancel:hover{
+    color: #bb9356 !important;
+    background-color: white !important;
+}
+.cart-total{
+    border-bottom: 2px solid rgba(127, 127, 127, 0.15);
+    margin-bottom: 15px;
+    min-height: 40px;
+}
+.total-dec{
+    color: #a5a5a5;
+    font-size: 14px;
+}
+.total-price{
+    color: #bb9356;
+    font-weight: 600;
+    font-size: 14 !important;
+}
+.btn-cart{
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    height: 42px;
+    line-height: 40px;
+    width: 100%;
+    background-color: #bb9356;
+    margin-bottom: 10px;
+}
+.btn-cart:hover, .btn-checkout:hover{
+    color: #bb9356 !important;
+    background-color: white;
+}
+.btn-checkout{
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 30px;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    height: 42px;
+    line-height: 40px;
+    width: 100%;
+    border: 2px solid white;
+}
+.module-toggle{
+    display: block !important;
+}
+
+
 /* mobile menu start */
 
 .accordion-toggle{
@@ -885,6 +1080,11 @@ button{
     .container-full{
         padding: 20px;
     }
+
+  .box-menu{
+            display: none !important;
+        }
+    
 
     
     

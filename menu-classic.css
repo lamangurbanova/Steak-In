@@ -969,6 +969,12 @@ button{
     }
 
     
+    .box-menu{
+            display: none !important;
+        }
+    
+
+    
     
     
 }

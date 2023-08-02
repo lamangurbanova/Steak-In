@@ -24,6 +24,7 @@ a{
 }
 .fixed-nav{
     width: 97.2%;
+    z-index: 10000;
 }
 .header-container{
     height: 100%;
@@ -962,6 +963,11 @@ button{
         padding: 48px 5px;
     }
     
+}
+@media screen and (min-width:992px){
+    .box-menu{
+        display: none !important;
+    }
 }
 @media screen and (max-width:992px){
     .fixed-nav{

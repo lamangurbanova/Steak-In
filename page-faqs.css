@@ -924,6 +924,10 @@ footer input::placeholder{
         width: 42px;
        }
 
+    .box-menu{
+        display: none !important;
+    }
+
     
     
     

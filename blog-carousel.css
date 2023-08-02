@@ -885,6 +885,12 @@ button{
     .container-full{
         padding: 20px;
     }
+
+    
+     .box-menu{
+            display: none !important;
+        }
+    
    
 
     

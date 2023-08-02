@@ -1000,6 +1000,11 @@ button{
         width: 290px;
     }
 
+
+    .box-menu{
+            display: none !important;
+        }
+    
     
     
     

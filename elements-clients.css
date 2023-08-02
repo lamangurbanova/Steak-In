@@ -910,6 +910,10 @@ button{
         padding: 0 40px;
         width: 70%;
     }
+     .box-menu{
+            display: none !important;
+        }
+    
    
 
     

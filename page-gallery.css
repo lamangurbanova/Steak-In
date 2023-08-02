@@ -911,6 +911,10 @@ button{
         padding: 20px;
     }
 
+
+    .box-menu{
+        display: none !important;
+    }
     
     
     
